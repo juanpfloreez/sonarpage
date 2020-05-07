@@ -221,6 +221,50 @@ h2 {
     
 }
 
+.blog {
+    background-color: rgb(240, 244, 255);
+    height: 10rem;
+    box-shadow: rgba(57, 80, 211, 0.15) 0px 0.5rem 1rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+}
+
+
+h3 {
+    text-align: left;
+    margin-left: 15rem;
+    padding-top: 2rem;
+    font-weight: bold;
+    
+}
+
+.form3 {
+    margin-left: 15rem;
+    
+}
+
+.email3 {
+    border: none;
+    background-color:  rgb(240, 244, 255);
+    border-bottom: 1px solid black;
+    font-size: 1.5rem;
+    width: 30rem;
+    
+}
+
+.button3 {
+    background-color: royalblue;
+    border: 2px solid royalblue;
+    color: white;
+    height: 2rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 9rem;
+    
+}
+
 footer{
     border: 0px solid red;
     margin-top: 1rem;
