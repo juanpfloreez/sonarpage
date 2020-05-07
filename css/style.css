@@ -1,0 +1,189 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+        padding: 0;
+        margin: 0;
+        font-size: 1.3rem;
+        font-family: 'Source Sans Pro', sans-serif, Arial, Helvetica; 
+}
+
+.div1 {
+    border: 0px solid red;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    border: 0px solid red;
+    margin-bottom: 1rem;
+    padding-top: 0.2rem;
+    /**height: 70px;**/
+    height: 4.5rem;
+    display: flex;
+    flex-flow: no wrap;
+    border-bottom: 1px solid gray;
+    /**justify-content: space-between;**/
+   
+}
+
+.divleftheader {
+    border: 0px solid purple;
+    width: 150px;
+    
+    
+}
+
+.divleftheader img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    padding-top: .8rem;
+    margin-left: 8rem;
+    
+}
+
+.divrightheader {
+    border: 0px solid black;
+    margin-left: 12rem;
+   
+    
+}
+
+.divrightheader nav {
+    border: 0px solid blue;
+    margin-top: 1.2rem;
+    
+}
+
+.divrightheader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: -0.3rem;
+}
+
+.divrightheader li {
+    display: inline-block;
+}
+
+.divrightheader a {
+    text-decoration: none;
+    color: gray;
+    border: 0px solid red;
+    margin-left: 1rem;
+}
+
+.signin {
+    font-size: 1rem;
+	font-weight: bold;
+	margin: 0.5rem 0;
+	background-color: royalblue;
+	color: whitesmoke;
+	border: none;
+	padding: 0.5rem 1.3rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-top: -0.3rem;
+}
+
+.upwrap {
+    width: 100%;
+    margin: auto;
+    border: 0px solid red;
+    height: 30rem;
+}
+
+.incial {
+    margin-top: 5rem;
+}
+
+.form1 {
+    margin-top: 3rem;
+}
+
+.email {
+    border: 2px solid royalblue;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+   
+}
+
+.button {
+    background-color: royalblue;
+    border: 2px solid royalblue;
+    color: white;
+    height: 2rem;
+    border-radius: 10px;
+    margin-left: -2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 7rem;
+  
+    
+}
+
+.big {
+    width: 29rem;
+    font-size: 3rem;
+    color: blueviolet;
+    font-weight: bold;
+    line-height: 0.9;
+    letter-spacing: -2px;
+
+}
+
+.small {
+    margin-top: -2rem;
+    font-size: 1.8rem;
+    letter-spacing: -1.4px;
+}
+
+.invertir {
+    width: 25rem;
+    font-size: 1rem;
+}
+
+.middlewrap {
+    width: 100%;
+    margin: auto;
+    border: 0px solid red;
+    height: 20rem;
+    background-color:#F7F7F7;
+
+}
+
+.middledownwrap {
+    width: 100%;
+    margin: auto;
+    border: 0px solid red;
+    height: 30rem;
+
+}
+
+.updownwrap {
+    width: 100%;
+    margin: auto;
+    border: 0px solid red;
+    height: 30rem;   
+}
+
+footer{
+    border: 0px solid red;
+    margin-top: 1rem;
+    border: 1px solid grey;
+    padding-bottom: 35rem;
+    border-radius: 32px;
+    background-color: #1D213A;
+}
+
+.divfooter {
+    border: 0px solid black;
+    padding: 2rem;
+}
